@@ -1,9 +1,12 @@
 "use client";
 import {useState} from "react";
-import Chatbot from "@/app/components/chatbot";
-import ChatHistorySidebar from "@/app/components/sidebar";
+// import Chatbot from "@/app/components/chatbot";
+// import ChatHistorySidebar from "@/app/components/sidebar";
 import {SelectedChatProvider} from "@/hooks/selected-chat-provider";
-import ChatbotWebsocket from "@/app/components/chatbot-websocket";
+// import ChatbotWebsocket from "@/app/components/chatbot-websocket";
+import Chatbot from "@/components/chatbot";
+import ChatHistorySidebar from "@/components/sidebar";
+import ChatbotWebsocket from "@/components/chatbot-websocket";
 
 type ChatbotType = 'direct-response' | 'websocket';
 
