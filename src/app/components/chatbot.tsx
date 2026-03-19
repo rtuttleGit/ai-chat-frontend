@@ -101,7 +101,7 @@ function ChatInner({
           {messages.length === 0 && (
             <div className="py-16 text-center sm:py-24">
               <h1 className="mb-2 text-2xl font-normal text-gray-900">
-                Welcome to Launchpad chat example
+                Welcome to AI chat example
               </h1>
               <p className="text-gray-600">Start a conversation</p>
             </div>
@@ -122,9 +122,9 @@ function ChatInner({
                   <div className="max-w-[95%] sm:max-w-[80%]">
                     <div className="mb-2 flex items-center gap-2">
                       <div className="flex h-7 w-7 items-center justify-center rounded-full bg-amber-600">
-                        <span className="text-xs font-medium text-white">C</span>
+                        <span className="text-xs font-medium text-white">AI</span>
                       </div>
-                      <span className="text-sm font-medium text-gray-900">Launchpad</span>
+                      <span className="text-sm font-medium text-gray-900">Pizza Assistant</span>
                     </div>
                     <div className="whitespace-pre-wrap text-sm leading-7 text-gray-900 sm:text-[15px]">
                       {message.content}
@@ -157,7 +157,7 @@ function ChatInner({
               onCompositionStart={() => setIsComposing(true)}
               onCompositionEnd={() => setIsComposing(false)}
               disabled={status !== "ready" || !selectedId}
-              placeholder="Message Launchpad..."
+              placeholder="Message AI..."
               rows={1}
               className="w-full resize-none rounded-2xl border border-gray-300 px-4 py-3 pr-14 text-gray-900 placeholder-gray-500 transition-all duration-200 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-amber-500 disabled:cursor-not-allowed disabled:opacity-50"
               style={{ minHeight: "56px", maxHeight: "200px" }}

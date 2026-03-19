@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Launchpad Chat",
+  title: "AI Chat",
   description: "Responsive chat interface with chat history and streaming support",
 };
 
